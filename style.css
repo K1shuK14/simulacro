@@ -54,6 +54,25 @@ span{
 }
 
 /*Seccion de busqueda de Vehiculos*/
-section{
+.modelsearch{
     background-color: #D9D9D9;
+    min-height: 300px;
+    margin: 0 auto;
+    gap: 10px 10px 10px 10px ;
+}
+.bcar1{
+    width: 1000px;
+    border: solid;
+    margin-left: 30px;
+    margin-top: 30px;
+    text-align: end;
+    background-color: #2C2C2C;
+    color: white;
+    box-shadow: 10px 10px 20px red;
+    border: solid rgb(142, 60, 60);
+
+}
+.bcar1 img{
+    width: 600px;
+    display: flex;
 }
