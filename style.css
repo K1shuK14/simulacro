@@ -1,3 +1,4 @@
+/*NAVBAR*/
 .hogar ul li{
     display: none;
     position: absolute;
@@ -15,4 +16,44 @@
 .over{
     display: flex;
     flex-direction: column;
+}
+nav{
+    background-color: #41424D;
+}
+/*HEADER*/
+.cgris{
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: auto;
+}
+header{
+    background-color: #32333E;
+    min-height: 900px;
+}
+
+.card{
+border: none;
+background: none;
+display: flex;
+flex-direction: row;
+}
+span{
+    display: flex;
+    flex-direction: column;
+
+}
+.ut{
+    color: grey;
+    display: flex;
+    flex-direction: column;
+}
+.links{
+    display: block;
+    align-items: end;
+}
+
+/*Seccion de busqueda de Vehiculos*/
+section{
+    background-color: #D9D9D9;
 }
