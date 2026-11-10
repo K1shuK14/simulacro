@@ -1,0 +1,18 @@
+.hogar ul li{
+    display: none;
+    position: absolute;
+    width: 200px;
+
+
+}
+.hogar:hover li{
+    display: block;
+
+}
+.hogar ul:hover{
+    cursor: pointer;
+}
+.over{
+    display: flex;
+    flex-direction: column;
+}
